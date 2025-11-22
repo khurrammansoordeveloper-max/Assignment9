@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vertical Menu Example</title>
+<style>
+    /* Container for the vertical menu */
+    .vertical-menu {
+        width: 200px; /* Menu width */
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+    }
+
+    /* Menu links */
+    .vertical-menu a {
+        display: block; /* Stack items vertically */
+        color: black;
+        padding: 12px;
+        text-decoration: none;
+        border-bottom: 1px solid #366e94;
+    }
+
+    /* Hover effect */
+    .vertical-menu a:hover {
+        background-color: #306ea857;
+    }
+
+    /* Active/current link */
+    .vertical-menu a.active {
+        background-color: #04AA6D;
+        color: white;
+    }
+</style>
+</head>
+<body>
+
+<h2>Vertical Menu Example</h2>
+
+<div class="vertical-menu">
+    <a href="#" class="active">🏠 Home </a>
+    <a href="#">ℹ️ About</a>
+    <a href="#">Services</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Contact</a>
+</div>
+
+</body>
+</html>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+    }
+
+    /* Aside navigation styles */
+    aside {
+        width: 15%;
+        background-color: #2c3e50;
+        color: white;
+        height: 800px;
+        position: fixed;
+        top: 250px;
+        left: 0;
+        overflow-y: auto;
+        padding-top: 20px;
+    }
+
+    aside nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    aside nav ul li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    aside nav ul li a {
+        display: block;
+        padding: 12px 20px;
+        color: white;
+        text-decoration: none;
+        transition: background 0.3s;
+    }
+
+    aside nav ul li a:hover {
+        background-color: #34495e;
+    }
+         
+    }
+</style>
+</head>
+<body>
+
+<div> 
+  <aside>
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#about">ℹ️ About</a></li>
+            <li><a href="#services">💼 Services</a></li>
+            <li><a href="#portfolio">📂 Portfolio</a></li>
+            <li><a href="#contact">📞 Contact</a></li>
+        </ul>
+    </nav>
+  </aside>
+  </div>
+  
